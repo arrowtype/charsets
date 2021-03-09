@@ -1,0 +1,134 @@
+# The following is for use with Glyph Construction, for RoboFont
+
+Aacute = A+acutecomb@top
+Agrave = A+gravecomb@top
+Abreve = A+brevecmb@top
+Acircumflex = A+circumflexcmb@top
+Atilde = A+tildecmb@top
+Adieresis = A+dieresiscmb@top
+Amacron = A+macroncmb@top
+Aring = A+ringcmb@top # depending on the font, you may want to use a "ring" anchor
+?AE = A & E
+
+Ccedilla = C+cedillacmb@bottom
+
+Egrave = E+gravecomb@top
+Eacute = E+acutecomb@top
+Ecircumflex = E+circumflexcmb@top
+Edieresis = E+dieresiscmb@top
+Ebreve = E+brevecmb@top
+Emacron = E+macroncmb@top
+
+Gbreve = G + brevecmb @ top
+
+Igrave = I+gravecomb@top
+Iacute = I+acutecomb@top
+Icircumflex = I+circumflexcmb@top
+Idieresis = I+dieresiscmb@top
+Imacron = I+macroncmb@top
+Ibreve = I+brevecmb@top
+Idotaccent =  I+dotaccent@top
+
+Ntilde = N+tildecmb@top
+
+Ograve = O+gravecomb@top
+Oacute = O+acutecomb@top
+Ocircumflex = O+circumflexcmb@top
+Odieresis = O+dieresiscmb@top
+Omacron = O+macroncmb@top
+Obreve = O+brevecmb@top
+Otilde = O+tildecmb@top
+?Oslash = O+slash
+?OE = O & E
+
+Scedilla = S + cedillacmb@bottom
+
+Ugrave = U+gravecomb@top
+Uacute = U+acutecomb@top
+Ucircumflex = U+circumflexcmb@top
+Udieresis = U+dieresiscmb@top
+Umacron = U+macroncmb@top
+Ubreve = U+brevecmb@top
+uni01D3 = U + caroncmb@top # Ucaron
+
+Ydieresis = Y+dieresiscmb@top
+
+agrave = a+gravecomb@top
+aacute = a+acutecomb@top
+acircumflex = a+circumflexcmb@top
+atilde = a+tildecmb@top
+adieresis = a+dieresiscmb@top
+aring = a+ringcmb@top
+amacron = a+macroncmb@top
+abreve = a+brevecmb@top
+?ae = a & e
+
+ccedilla = c+cedillacmb@bottom
+
+egrave = e+gravecomb@top
+eacute = e+acutecomb@top
+ecircumflex = e+circumflexcmb@top
+edieresis = e+dieresiscmb@top
+emacron = e+macroncmb@top
+ebreve = e+brevecmb@top
+
+gbreve = g +brevecmb@top # may require an "earless" g base
+
+?dotlessi = i
+?dotlessj = j
+
+j = dotlessj+dotaccent@top
+
+i = dotlessi+dotaccent@top
+igrave = dotlessi+gravecomb@top
+iacute = dotlessi+acutecomb@top
+icircumflex = dotlessi+circumflexcmb@top
+idieresis = dotlessi+dieresiscmb@top
+imacron = dotlessi+macroncmb@top
+ibreve = dotlessi+brevecmb@top
+
+ntilde = n+tildecmb@top
+
+ograve = o+gravecomb@top
+oacute = o+acutecomb@top
+ocircumflex = o+circumflexcmb@top
+odieresis = o+dieresiscmb@top
+omacron = o+macroncmb@top
+obreve = o+brevecmb@top
+?oslash = o+slash
+?oe = o & e
+
+scedilla = s + cedillacmb@bottom
+
+ugrave = u+gravecomb@top
+uacute = u+acutecomb@top
+ucircumflex = u+circumflexcmb@top
+udieresis = u+dieresiscmb@top
+umacron = u+macroncmb@top
+ubreve = u+brevecmb@top
+uni01D4 = u + caroncmb@top # ucaron
+
+ydieresis = y+dieresiscmb@top
+
+?minute = quotesingle
+?second = quotedbl
+?uni2010 = hyphen
+
+## special characters
+
+?ellipsis = period & period & period
+
+# ---------------------------------
+
+# these require manual re-positioning after building
+?dieresis = dieresiscmb ^ e
+?cedilla = cedillacmb ^ e
+?circumflex = circumflexcmb ^ e
+?caron = caroncmb ^ e
+?breve = brevecmb ^ e
+?dotaccent = dotaccent ^ e
+?ring = ringcmb ^ e
+?ogonek = ogonekcmb ^ e
+?tilde = tildecmb ^ e
+
+nbspace = space | 00A0
