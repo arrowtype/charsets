@@ -9,11 +9,12 @@ In RoboFont, there is a Preferences panel for [defining character sets](https://
 ## Files included
 
 - `ASCII.txt` – A basic ASCII character set, e.g. for sketching new Latin fonts.
-- `ATC-en-sp-fr-pt-de.txt` – A basic character set for English, Spanish, French, Portuguese, and German.
+- `ATC-en-sp-fr-pt-de.txt` – A basic character set for English, Spanish, French, Portuguese, and German. Intended for WIP font releases.
   - English, Spanish, French, and Portuguese are all in the top ten most-spoken languages in the world. German is close, and is the most spoken native lanuage in the EU. So, this set makes a solid "MVP" character set for a font. 
   - Even if you only expect a font to be used for English (say, because it’s a beta font or a custom brand font), English requires most of these characters in loan words, and then it barely takes more additional time to fully support many tens of millions of additional people. Obviously, you probably want to add support for more languages before considering a font “done.”
   - Adds `.notdef Germandbls dotlessi dotlessj guilsinglleft guilsinglright` because these are either essential or “free” if you’re making this set already.
   - Adds a few basic currencies: `dollar Euro sterling yen`
+  - Leaves out a few slightly-less-common typographic symbols: `dagger daggerdbl section`
   - Also includes arrows (duh).
 
 I’ll post more here soon / as I need them.
