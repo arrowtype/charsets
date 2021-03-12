@@ -95,6 +95,7 @@ ocircumflex = o+circumflexcmb@top
 odieresis = o+dieresiscmb@top
 omacron = o+macroncmb@top
 obreve = o+brevecmb@top
+otilde = o+tildecmb@top
 ?oslash = o+slash
 ?oe = o & e
 
