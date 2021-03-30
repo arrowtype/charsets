@@ -23,7 +23,7 @@ I’ll post more here soon / as I need them.
 
 These character sets are based on information from the fantastic [Alphabet Type Charset Builder](https://www.alphabet-type.com/tools/charset-builder/). If you need to extend them, this is a very useful resource.
 
-These character sets use names from the [Adobe Glyph List](https://github.com/adobe-type-tools/agl-aglfn/blob/master/glyphlist.txt), so that RoboFont will automatically assign Unicode values to them, and so they work in PDFs without further steps.
+These character sets use names from the [Glyph Name Formatted Unicode List](https://github.com/LettError/glyphNameFormatter), so that RoboFont will automatically assign Unicode values to them, and so they work in PDFs without further steps.
 
 If you adjust glyph names, [Production Names](https://robofont.com/documentation/how-tos/using-production-names/) should probably be assigned to glyphs, to ensure they can be easy to design with but also work in PDFs (where AGL-format glyph names are required).
 
